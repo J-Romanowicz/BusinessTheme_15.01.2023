@@ -1,0 +1,564 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+.header-nav {
+  display: flex;
+  height: 95px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-link {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #868686;
+  text-transform: uppercase;
+  padding: 8px 17px;
+  margin-right: 10px;
+  transition-duration: 0.5s;
+}
+.nav-link:hover {
+  background-color: #ffbb42;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.main-part {
+  position: relative;
+  height: 589px;
+  background-color: #709dca;
+  color: #ffffff;
+  padding-top: 105px;
+}
+.main-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: -2px;
+  text-align: center;
+}
+.main-description {
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 2;
+  text-align: center;
+  margin-bottom: 33px;
+}
+.main-input {
+  display: flex;
+  justify-content: center;
+}
+.main-input input {
+  width: 281px;
+  height: 46px;
+  margin-right: 10px;
+  padding-left: 30px;
+}
+input:focus {
+  outline: 2px solid #ffbb42;
+}
+#user-name::placeholder {
+  font-family: "Open Sans";
+  padding-left: 20px;
+  background-image: url(/images/user-logo.png);
+  background-repeat: no-repeat;
+}
+#user-mail::placeholder {
+  font-family: "Open Sans";
+  padding-left: 20px;
+  background-image: url(/images/mail-logo.png);
+  background-repeat: no-repeat;
+  background-position: 0 3px;
+}
+#user-tel::placeholder {
+  font-family: "Open Sans";
+  padding-left: 20px;
+  background-image: url(/images/call-logo.png);
+  background-repeat: no-repeat;
+  background-position: 0 3px;
+}
+.submit-btn {
+  font-weight: 700;
+  color: #868686;
+  text-align: center;
+  transition-duration: 1s;
+}
+.submit-btn:hover {
+  background-color: #ffbb42;
+  box-shadow: 2px 2px #868686;
+  color: #ffffff;
+}
+.laptop {
+  position: absolute;
+  top: 50%;
+  left: 31%;
+}
+.article {
+  margin: 0 auto;
+  text-align: center;
+}
+.article-name {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -0.75px;
+  padding-top: 140px;
+  color: #394b50;
+  text-transform: uppercase;
+}
+.article-description {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 93px;
+}
+.article-table {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 120px;
+  justify-content: center;
+  max-width: 100%;
+  margin: 0 262px;
+}
+.cell-name {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: start;
+}
+.cell-content {
+  font-family: "Open Sans";
+  font-size: 13px;
+  color: #7b7b7b;
+  line-height: 1.5;
+  text-align: start;
+  margin-bottom: 79px;
+}
+.font-icons {
+  position: relative;
+  padding-left: 82px;
+}
+.font-icons::before {
+  content: url(/images/clock-logo.png);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.fully-design {
+  position: relative;
+  padding-left: 82px;
+}
+.fully-design::before {
+  content: url(/images/service-logo.png);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.working-form {
+  position: relative;
+  padding-left: 82px;
+}
+.working-form::before {
+  content: url(/images/hat-logo.png);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.retina-here {
+  position: relative;
+  padding-left: 82px;
+}
+.retina-here::before {
+  content: url(/images/rocket-logo.png);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.friendly-code {
+  position: relative;
+  padding-left: 82px;
+}
+.friendly-code::before {
+  content: url(/images/code-logo.png);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.flat-design {
+  position: relative;
+  padding-left: 82px;
+}
+.flat-design::before {
+  content: url(/images/dollar-logo.png);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.about-us {
+  display: flex;
+  background-color: #ffbb42;
+}
+.picture-space {
+  max-width: 50%;
+}
+.picture-space img {
+  width: 100%;
+  height: 100%;
+}
+.about-content {
+  width: 50%;
+  margin: 164px 80px 253px;
+  margin-left: 80px;
+  color: #ffffff;
+}
+.about-content-name {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -2px;
+  margin-bottom: 28px;
+}
+.about-content-text {
+  font-family: "Open Sans";
+  font-size: 13px;
+  margin-right: 265px;
+  line-height: 24px;
+  margin-bottom: 33px;
+}
+.read-more {
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  border: 1px solid #e7ad48;
+  padding: 10px;
+  transition-duration: 0.5s;
+  border-radius: 5px;
+}
+.read-more:hover {
+  background-color: #f8b33c;
+}
+.choose-price {
+  background-color: #e7edf3;
+  padding: 0 262px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.card {
+  background-color: #ffffff;
+  padding: 0 31px;
+  color: #818b95;
+  text-transform: uppercase;
+  border: 1px solid #f5f7f9;
+  border-radius: 5px;
+  transition: all 0.8s ease;
+  margin-bottom: 194px;
+}
+.card:hover {
+  transform: scale(1.2);
+  color: #ffffff;
+  background-color: #709dca;
+}
+.card-category {
+  padding-top: 57px;
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.card-title {
+  color: #ffbb42;
+  font-family: "Lato - Bold", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  position: relative;
+}
+.card-title::before {
+  content: url(/images/dollar.svg);
+  position: absolute;
+  left: 35%;
+  top: -30%;
+}
+.card-description {
+  font-family: "Lato - Light", sans-serif;
+  font-weight: 300;
+  margin-bottom: 31px;
+}
+.card-features li {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+  border-top: 1px solid #dad6d6;
+}
+.card-features {
+  margin-bottom: 35px;
+}
+.get-button {
+  display: inline-block;
+  background-color: #fab43b;
+  padding: 16px;
+  text-decoration: none;
+  margin-bottom: 64px;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.get-button:hover {
+  background-color: #ffc45e;
+  box-shadow: 2px 2px #dad6d6;
+}
+.how-it-works {
+  margin: 0 80px;
+}
+.work-steps {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+.step-card {
+  color: #818b95;
+  text-transform: uppercase;
+  margin-bottom: 108px;
+  position: relative;
+}
+.step-card:nth-child(odd):after {
+  content: url(/images/arrow-logo.png);
+  position: absolute;
+  top: -15%;
+  left: 80%;
+}
+.step-card:nth-child(2):after {
+  content: url(/images/arrow-logo.png);
+  position: absolute;
+  transform: rotate(180deg);
+  top: 25%;
+  left: 80%;
+}
+.step-name {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #394b50;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+.step-1::before {
+  content: url(/images/headphones-logo.png);
+  padding: 0 102px 73px;
+  display: block;
+}
+.step-2::before {
+  content: url(/images/lock-logo.png);
+  padding: 0 102px 68px;
+  display: block;
+}
+.step-3::before {
+  content: url(/images/cloud-logo.png);
+  padding: 0 102px 73px;
+  display: block;
+}
+.step-4::before {
+  content: url(/images/like-logo.png);
+  padding: 0 102px 68px;
+  display: block;
+}
+.step-description {
+  font-size: 13px;
+  line-height: 22px;
+  padding: 0 25px;
+}
+
+.happy-client {
+  background-color: #ffbb42;
+  padding-bottom: 160px;
+}
+.client-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 36px;
+  margin: 0 265px;
+}
+.client-cell {
+  background-color: #f5f7f9;
+  display: flex;
+  padding: 43px 31px;
+  gap: 31px;
+}
+.client-content {
+  text-align: left;
+  color: #7b7b7b;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 22px;
+  width: 60%;
+}
+.client-photo {
+  width: 30%;
+}
+.client-opinion {
+  margin-bottom: 29px;
+  position: relative;
+}
+.client-opinion::before {
+  content: url(/images/_“_.png);
+  position: absolute;
+  left: -7%;
+  top: -5%;
+}
+.client-opinion::after {
+  content: url(/images/_“_.png);
+  transform: scaleX(-1);
+  position: absolute;
+  left: 45%;
+  top: 90%;
+}
+.client-name {
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  color: #818b95;
+}
+.name {
+  color: #ffbb42;
+}
+.contact {
+  margin: 0 265px;
+  border-bottom: 1px solid #e9ecf0;
+  margin-bottom: 68px;
+}
+.contact .article-description {
+  margin-bottom: 53px;
+}
+.input-contact {
+  display: flex;
+  justify-content: center;
+}
+.input-contact input {
+  border: 1px solid #cbcbcb;
+  padding-left: 16px;
+  width: 308px;
+  height: 46px;
+  margin-right: 10px;
+  margin-bottom: 53px;
+}
+.input-contact input:nth-child(2) {
+  width: 388px;
+}
+.input-contact input:last-child {
+  width: 218px;
+  background-color: #ffbb42;
+  color: #ffffff;
+  border-radius: 5px;
+}
+#user-submit:hover {
+  box-shadow: 2px 2px #394b50;
+}
+.adres-bg {
+  background-image: url(/images/map.png);
+  background-repeat: no-repeat;
+  padding-bottom: 170px;
+  margin: 0 34px;
+  padding-top: 35px;
+}
+.adress {
+  margin: 0 405px;
+  background-image: url(/images/footer-circle.png);
+  background-repeat: no-repeat;
+  padding: 68px;
+  font-size: 13px;
+  line-height: 24px;
+  color: #aeb7ba;
+  text-align: center;
+  margin-bottom: 6px;
+}
+.adress-title {
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.adress-description {
+  padding: 0 10px;
+}
+.info {
+  color: #aeb7ba;
+}
+.info:hover {
+  color: #ffbb42;
+}
+.logo {
+  margin-top: 70px;
+  text-align: center;
+}
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 487px 29px;
+}
+.foot-link {
+  color: #394b50;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 8px 5px;
+  transition-duration: 0.5s;
+}
+.foot-link:hover {
+  background-color: #ffbb42;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.contact-us {
+  text-align: center;
+  font-size: 23px;
+  animation-name: ring;
+  animation-duration: 0.1s;
+  animation-iteration-count: infinite;
+  margin-bottom: 23px;
+}
+.contact-us a {
+  color: #394b50;
+  transition-duration: 0.2s;
+}
+.contact-us a:hover {
+  color: #ffbb42;
+  font-weight: 700;
+}
+.contact-us a::before {
+  content: url(/images/call-logo.png);
+  margin-right: 7px;
+}
+.socials-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 797px 53px;
+}
+.copyright {
+  text-align: center;
+  background-color: #709dca;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 17px;
+}
+@keyframes ring {
+  33% {
+    transform: rotate(0.5deg);
+  }
+  66% {
+    transform: rotate(-0.5deg);
+  }
+}
