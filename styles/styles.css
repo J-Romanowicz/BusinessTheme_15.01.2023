@@ -70,20 +70,20 @@ input:focus {
 #user-name::placeholder {
   font-family: "Open Sans";
   padding-left: 20px;
-  background-image: url(/images/user-logo.png);
+  background-image: url(images/user-logo.png);
   background-repeat: no-repeat;
 }
 #user-mail::placeholder {
   font-family: "Open Sans";
   padding-left: 20px;
-  background-image: url(/images/mail-logo.png);
+  background-image: url(images/mail-logo.png);
   background-repeat: no-repeat;
   background-position: 0 3px;
 }
 #user-tel::placeholder {
   font-family: "Open Sans";
   padding-left: 20px;
-  background-image: url(/images/call-logo.png);
+  background-image: url(images/call-logo.png);
   background-repeat: no-repeat;
   background-position: 0 3px;
 }
@@ -150,7 +150,7 @@ input:focus {
   padding-left: 82px;
 }
 .font-icons::before {
-  content: url(/images/clock-logo.png);
+  content: url(images/clock-logo.png);
   position: absolute;
   left: 0;
   top: 0;
@@ -160,7 +160,7 @@ input:focus {
   padding-left: 82px;
 }
 .fully-design::before {
-  content: url(/images/service-logo.png);
+  content: url(images/service-logo.png);
   position: absolute;
   left: 0;
   top: 0;
@@ -170,7 +170,7 @@ input:focus {
   padding-left: 82px;
 }
 .working-form::before {
-  content: url(/images/hat-logo.png);
+  content: url(images/hat-logo.png);
   position: absolute;
   left: 0;
   top: 0;
@@ -180,7 +180,7 @@ input:focus {
   padding-left: 82px;
 }
 .retina-here::before {
-  content: url(/images/rocket-logo.png);
+  content: url(images/rocket-logo.png);
   position: absolute;
   left: 0;
   top: 0;
@@ -190,7 +190,7 @@ input:focus {
   padding-left: 82px;
 }
 .friendly-code::before {
-  content: url(/images/code-logo.png);
+  content: url(images/code-logo.png);
   position: absolute;
   left: 0;
   top: 0;
@@ -200,7 +200,7 @@ input:focus {
   padding-left: 82px;
 }
 .flat-design::before {
-  content: url(/images/dollar-logo.png);
+  content: url(images/dollar-logo.png);
   position: absolute;
   left: 0;
   top: 0;
@@ -285,7 +285,7 @@ input:focus {
   position: relative;
 }
 .card-title::before {
-  content: url(/images/dollar.svg);
+  content: url(images/dollar.svg);
   position: absolute;
   left: 35%;
   top: -30%;
@@ -333,13 +333,13 @@ input:focus {
   position: relative;
 }
 .step-card:nth-child(odd):after {
-  content: url(/images/arrow-logo.png);
+  content: url(images/arrow-logo.png);
   position: absolute;
   top: -15%;
   left: 80%;
 }
 .step-card:nth-child(2):after {
-  content: url(/images/arrow-logo.png);
+  content: url(images/arrow-logo.png);
   position: absolute;
   transform: rotate(180deg);
   top: 25%;
@@ -354,22 +354,22 @@ input:focus {
   margin-bottom: 28px;
 }
 .step-1::before {
-  content: url(/images/headphones-logo.png);
+  content: url(images/headphones-logo.png);
   padding: 0 102px 73px;
   display: block;
 }
 .step-2::before {
-  content: url(/images/lock-logo.png);
+  content: url(images/lock-logo.png);
   padding: 0 102px 68px;
   display: block;
 }
 .step-3::before {
-  content: url(/images/cloud-logo.png);
+  content: url(images/cloud-logo.png);
   padding: 0 102px 73px;
   display: block;
 }
 .step-4::before {
-  content: url(/images/like-logo.png);
+  content: url(images/like-logo.png);
   padding: 0 102px 68px;
   display: block;
 }
@@ -411,13 +411,13 @@ input:focus {
   position: relative;
 }
 .client-opinion::before {
-  content: url(/images/_“_.png);
+  content: url(images/_“_.png);
   position: absolute;
   left: -7%;
   top: -5%;
 }
 .client-opinion::after {
-  content: url(/images/_“_.png);
+  content: url(images/_“_.png);
   transform: scaleX(-1);
   position: absolute;
   left: 45%;
@@ -465,7 +465,7 @@ input:focus {
   box-shadow: 2px 2px #394b50;
 }
 .adres-bg {
-  background-image: url(/images/map.png);
+  background-image: url(images/map.png);
   background-repeat: no-repeat;
   padding-bottom: 170px;
   margin: 0 34px;
@@ -473,7 +473,7 @@ input:focus {
 }
 .adress {
   margin: 0 405px;
-  background-image: url(/images/footer-circle.png);
+  background-image: url(images/footer-circle.png);
   background-repeat: no-repeat;
   padding: 68px;
   font-size: 13px;
@@ -539,7 +539,7 @@ input:focus {
   font-weight: 700;
 }
 .contact-us a::before {
-  content: url(/images/call-logo.png);
+  content: url(images/call-logo.png);
   margin-right: 7px;
 }
 .socials-list {
